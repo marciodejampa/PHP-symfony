@@ -1,0 +1,8 @@
+<serializer>
+    <class name="Domain\Model\Oportunidade">
+        <property name="idOportunidade" type="integer" groups="default" />
+        <property name="periodoInicial" type="DateTime" groups="default" />
+        <property name="periodoFinal" type="DateTime" groups="default" />
+        <property name="qtdVagas" type="integer" groups="default" />
+    </class>
+</serializer>
